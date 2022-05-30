@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+   <section class="main">
+
+    <!-- <div class="aside close" id="anim"> -->
+    <div class="aside">
+      <div class="logo">
+        <img src="setting.svg">
+        <h1>Teamify</h1>
+      </div>
+      <ul class="navLinks">
+        <li><a href="#"><i class="fa-solid fa-bars"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fa-solid fa-people-group"></i>Teams</a></li>
+        <li><a href="#"><i class="fa-solid fa-user-plus"></i></i>Employees</a></li>
+        <li><a href="#"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+        <hr>
+        <li><a href="#"><i class="fa-solid fa-phone"></i>Meetings</a></li>
+        <li><a href="#"><i class="fa-solid fa-folder"></i>Tasks</a></li>
+        <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+      </ul>
+      <div class="card">
+        <img src="lamp.svg">
+        <a href="#">Share Your Thoughts</a>
+      </div>
+      
+      <!-- <div id="toggle">
+        <div class="icon">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </div>
+      </div> -->
+
+
+    </div>
+
+    <div class="mainContent">
+      
+      <div class="header">
+        <div class="col1">
+          <h1>Good Mornung Anima</h1>
+          <p>
+            Hope you have a good day
+          </p>
+        </div>
+        <div class="col2">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bell"></i>
+          <img src="user.jpg">
+          <i class="fa-solid fa-angle-down down"></i>
+        </div>
+      </div>
+
+      <div class="content1">
+        <div class="row">
+          <div class="BarChart">
+            <canvas id="BarChart"></canvas>
+          </div>
+        </div>
+        <div class="row center">
+          <div class="rowHead">
+            <h1>Employees</h1>
+            <p>Aug 25 - Sept 25 <i class="fa-solid fa-angle-down down"></i></p>
+          </div>
+          <div class="rowMain">
+            <div class="colum">
+              <div class="col">
+                <h1><div class="circle one"></div>Inactive</h1>
+                <p>254</p>
+              </div>
+              <div class="col">
+                <h1><div class="circle two"></div>Active</h1>
+                <p>3000</p>
+              </div>
+              <div class="col">
+                <h1><div class="circle three"></div>Total</h1>
+                <p>3254</p>
+              </div>
+            </div>
+            <img src="img1.svg">
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card first">
+            <h1>Top 10</h1>
+            <p>Position in Dribbble</p>
+            <p class="p">20% increase from last week</p>
+          </div>
+          <div class="card second">
+            <h1>26</h1>
+            <p>New employees onboarded</p>
+            <p class="p">15% Increase from last month</p>
+          </div>
+          <div class="card third">
+            <h1>500</h1>
+            <p>New Clients Approached</p>
+            <p class="p">5% Increase from Last Week</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content2">
+
+
+        <div class="left">
+          <div class="chart">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+
+
+        <div class="right">
+          <div class="LHead">
+            <h1>Notifications</h1>
+            <a href="#">View All</a>
+          </div>
+          <div class="users">
+            <img src="user-1.jpg">
+            <div class="info">
+              <h1>Ellie joined team developers</h1>
+              <p>04 April, 2021 | 04:00 PM</p>
+            </div>
+          </div>
+          <div class="users">
+            <img src="user-2.jpg">
+            <div class="info">
+              <h1>Ellie joined team developers</h1>
+              <p>04 April, 2021 | 04:00 PM</p>
+            </div>
+          </div>
+          <div class="users">
+            <img src="user-3.jpg">
+            <div class="info">
+              <h1>Ellie joined team developers</h1>
+              <p>04 April, 2021 | 04:00 PM</p>
+            </div>
+          </div>
+          <div class="users">
+            <img src="user-4.jpg">
+            <div class="info">
+              <h1>Ellie joined team developers</h1>
+              <p>04 April, 2021 | 04:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
